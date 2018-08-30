@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+SNOWBOTS MODIFICATIONS:
+- changed `const` to `constexpr` in a few places to allow this to compile on Ubuntu 18.04
+- changed `NULL` equality check to `.is_open()` when checking if filestream opened successfully
+
+-------------------------------------------------------------------
 -------------------------------------------------------------------
 The Sick LIDAR C++ Toolbox
 -------------------------------------------------------------------
